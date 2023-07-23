@@ -1,4 +1,4 @@
-package stackYque;
+package stackAndQueue;
 
 public class NoIdenticalNum {
     /*
