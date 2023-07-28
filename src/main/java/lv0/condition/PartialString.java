@@ -4,7 +4,10 @@ public class PartialString {
     // .contains ? 1 : 0 또는 .indexOf > -1 ? 1 : 0 사용가능
     public int solution(String my_string, String target) {
         int answer = 0;
-
+        // 특정문자열이 있는지 확인하는 메소드
+        // .indexOf(), .contains(), matches() -> 정규식 활용
+        answer = (my_string.contains(target) ? 1 : 0);
+/*
         //substring(a, b) : a부터 b-1까지, 첫 문자는 0에서 시작
         //따라서 +1 해야 마지막 문자까지 확인이 가능
         for (int i = 0; i < my_string.length() - target.length() + 1  ; i++) {
@@ -18,11 +21,12 @@ public class PartialString {
             } else {
                 answer = 0;
             }
-
         }
         // System.out.println(target.length());  -> length: 첫 문자를 1부터 셈. ana = 3
         //System.out.println(my_string.substring(1, 3)); -> HELLOWORLD -> EL
         //System.out.println(answer);
+
+ */
         return answer;
     }
 
