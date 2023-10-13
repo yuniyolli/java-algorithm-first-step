@@ -2,7 +2,7 @@ package lecture;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+public class A1BubbleSort {
     public static void main(String[] args) {
         int[] arr = {36, 12, 18, 15, 41, 19};
         int n = arr.length;
