@@ -1,4 +1,4 @@
-package lecture;
+package algorithm.lecture;
 
 import java.util.Arrays;
 // the smallest the first
