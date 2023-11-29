@@ -17,7 +17,7 @@ import java.util.Scanner;
 40 80 60
 :: 75.0
  */
-public class P1546 {
+public class Boj1546 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numOfTest = sc.nextInt();
